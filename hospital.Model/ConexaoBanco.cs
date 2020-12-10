@@ -18,7 +18,7 @@ namespace hospital.Model.Suporte
         static string stringConexao =
         "Server =	localhost; " +
         "Database	= 'hospital'; Port=5432;" +
-        "User ID=	postgres; password = superUserPostgres;";
+        "User ID=	postgres; password = postgres;";
         
         static NpgsqlConnection cn;
 
